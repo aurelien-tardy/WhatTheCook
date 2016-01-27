@@ -79,8 +79,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Bienvenue sur What The Cook</div>
-                <div class="intro-heading">Tous à vos fourneaux!</div>
+                <div class="intro-lead-in"><span style="background-color: #CDDE47;" >Bienvenue sur What The Cook</span></div>
+                <div class="intro-heading"><span style="background-color: #CDDE47;" >Tous à vos fourneaux!</span></div>
                 <a href="#services" class="page-scroll btn btn-xl">Je veux en savoir plus</a>
             </div>
         </div>
