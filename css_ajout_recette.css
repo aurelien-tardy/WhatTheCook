@@ -1,0 +1,94 @@
+body {
+
+
+    -webkit-font-smoothing: antialiased;
+}
+.txt_form {
+    color: white;
+}
+
+
+/* - - - - - RATINGS */
+.rating {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+
+    border-radius: 30px;
+    background: transparent;
+    display: block;
+    overflow: hidden;
+
+
+
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating:not(:checked) > input {
+    display: none;
+}
+
+/* - - - - - RATE */
+#rate {
+    top: -65px;
+    font-size: 25px;
+}
+#rate:not(:checked) > label {
+    cursor:pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: block;
+
+    color: rgba(245, 242, 0, .4);
+    line-height: 33px;
+    text-align: center;
+}
+#rate:not(:checked) > label:hover,
+#rate:not(:checked) > label:hover ~ label {
+    color: rgba(255, 255, 0, .6);
+}
+#rate > input:checked + label:hover,
+#rate > input:checked + label:hover ~ label,
+#rate > input:checked ~ label:hover,
+#rate > input:checked ~ label:hover ~ label,
+#rate > label:hover ~ input:checked ~ label {
+    color: rgba(255, 255, 0, .8);
+}
+#rate > input:checked ~ label {
+    color: rgb(255, 255, 0);
+}
+/* - - - - - LIKE */
+#like {
+    bottom: -65px;
+}
+#like:not(:checked) > label {
+    cursor:pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: block;
+
+    color: rgba(255, 255, 0, .4);
+    line-height: 33px;
+    text-align: center;
+}
+#like:not(:checked) > label:hover,
+#like:not(:checked) > label:hover ~ label {
+    color: rgba(255, 255, 0, .6);
+}
+#like > input:checked + label:hover,
+#like > input:checked + label:hover ~ label,
+#like > input:checked ~ label:hover,
+#like > input:checked ~ label:hover ~ label,
+#like > label:hover ~ input:checked ~ label {
+    color: rgba(255, 255, 0, .8);
+}
+#like > input:checked ~ label {
+    color: rgb(255, 255, 0);
+}
