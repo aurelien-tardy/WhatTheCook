@@ -56,13 +56,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html">Accueil</a>
+                        <a class="page-scroll" href="index.php">Accueil</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Equipe</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="connexion.php">Connexion</a>
+                    <a class="page-scroll" href="connexion.php">Connexion</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="inscription.php">Inscription</a>
@@ -124,89 +121,6 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Notre équipe</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <!-- Cécile Valette -->
-            <n class="row">
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/cec.png" height="250" width="250"  class="img-responsive img-circle" alt="">
-                        <h4>Cécile Valette</h4>
-                        <p class="text-muted">Développeur web</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Geoffrey Veyre -->
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/geoffrey.png" height="250" width="250" class="img-responsive img-circle" alt="">
-                        <h4>Geoffrey Veyre</h4>
-                        <p class="text-muted">Développeur web</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                </n>
-                <!-- Nicolas Scheidegger-->
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/nico.png" height="250" width="250"  class="img-responsive img-circle" alt="">
-                        <h4>Nicolas Scheidegger</h4>
-                        <p class="text-muted">Développeur web</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Aurélien Tardy -->
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/aure.png" height="250" width="250"  class="img-responsive img-circle" alt="">
-                        <h4>Aurélien Tardy</h4>
-                        <p class="text-muted">Développeur web</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Nous sommes 4 étudiants en DUT Informatique à l'université Claude Bernard antenne Bourg-en-Bresse. Nous aimons la bonne bouffe mais nous n'avons pas souvent d'idées de recettes! C'est pourquoi nous avons créé ce site communautaire pour partager nos recettes. </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     
@@ -399,6 +313,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="assets/js/agency.js"></script>
+    <?php include "views/footer.html" ; ?>
 
 </body>
 
