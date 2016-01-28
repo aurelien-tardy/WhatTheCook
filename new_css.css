@@ -4,7 +4,7 @@ body {
 }
 
 .text-muted {
-    color: #777
+    color: #fff
 }
 
 .text-primary {
@@ -586,8 +586,8 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+
+    background-image: url(img/wallhaven-277095.jpg);
     background-position: center;
     background-repeat: no-repeat
 }
